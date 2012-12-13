@@ -7,7 +7,7 @@
 use strict;
 use warnings;
 
-# simply find HCF of all numbers between 1 & 20, then 
+# simply find HCF of all numbers between 1 & 20, then multiply them 
 
 my $allPrimesProd = 5 * 7 * 11 * 13 * 17 * 19 * 16 * 9;
 
