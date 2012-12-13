@@ -32,7 +32,7 @@ sub isPrime($)
     my $number = shift;
     my ($i, $j) = (2, sqrt($number));
     
-    for( $i = 2; $i < $j; $i++ )
+    for( $i = 2; $i <= $j; $i++ )
     {
 	if( $number % $i == 0 )
 	{
