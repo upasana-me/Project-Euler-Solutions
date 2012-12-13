@@ -1,0 +1,8 @@
+This repository has solutions of problems given on ProjectEuler (https://projecteuler.net/problems)
+
+Instructions:
+
+1. For files with .pl extensions
+   a) Pre-requisites : Perl Interpreter
+   b) For executing programs, type the following on the terminal :
+      $ perl <filename>
