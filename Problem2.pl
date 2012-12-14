@@ -16,11 +16,10 @@ while( $currentTerm < 4000000 )
     $currentTerm = $firstTerm + $secondTerm;
     if( $currentTerm % 2 == 0 )
     {
-	print "CurrentTerm is $currentTerm\n";
 	$sum += $currentTerm;
     }
     $firstTerm = $secondTerm;
     $secondTerm = $currentTerm;
 }
 
-print "Sum is $sum\n";
+print "$sum\n";

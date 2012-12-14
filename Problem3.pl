@@ -24,7 +24,7 @@ for( $i = 2; $i < $j; $i++ )
     }
 }
 
-print "Largest prime factor of $number is $primesArray[$#primesArray]\n"; 
+print "$primesArray[$#primesArray]\n"; 
 
 # function for checking if a given number is prime or not, returns true if prime
 sub isPrime($)
@@ -36,11 +36,9 @@ sub isPrime($)
     {
 	if( $number % $i == 0 )
 	{
-	    print "Returning false for $number\n";
 	    return 0;
 	}
     }
 
-    print "Returning true for $number\n";
     return 1;
 }

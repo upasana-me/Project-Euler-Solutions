@@ -17,7 +17,7 @@ testProduct($start, $middle, $start, $middle);
 testProduct($start, $middle, $middle, $end );
 testProduct($middle, $end, $middle, $end );
 
-print "largestPalindrom = $largestPalindrome\n";
+print "$largestPalindrome\n";
 
 sub testProduct
 {

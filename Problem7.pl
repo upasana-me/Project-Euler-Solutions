@@ -17,7 +17,6 @@ for( $j = 3; $i < $n; $j++ )
     {
 	$prime = $j;
 	$i++;
-	print "i = $i\n";
     }
 }
 
@@ -37,7 +36,6 @@ sub isPrime($)
 	}
     }
 
-    print "Returning true for $number\n";
     return 1;
 }
 

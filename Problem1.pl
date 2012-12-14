@@ -13,9 +13,8 @@ foreach( 3 .. 999 )
 {
     if( ( ($_ % 3) == 0) || ( ($_ % 5) == 0 ) )
     {
-	print "number is $_\n";
 	$sum += $_;
     }
 }
 
-print "Sum is $sum\n";
+print "$sum\n";
