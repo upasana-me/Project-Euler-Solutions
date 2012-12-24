@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 # https://projecteuler.net/problem=42
 
 # The nth term of the sequence of triangle numbers is given by, tn = ½n(n+1); so the first ten triangle numbers are:
@@ -8,11 +10,8 @@
 
 # Using words.txt (right click and 'Save Link/Target As...'), a 16K text file containing nearly two-thousand common English words, how many are triangle words?
 
-#!/usr/bin/perl
-
 use strict;
 use warnings;
-
 
 our @triangleNumbers;
 
@@ -45,7 +44,7 @@ sub generateTraingleNumbers
     for( my $i = 1; $i <= 400; $i++ )
     {
 	$triangleNumbers[$i] = ($i*($i+1))/2;
-	print "$triangleNumbers[$i]\n";
+#	print "$triangleNumbers[$i]\n";
     }
 }
 
