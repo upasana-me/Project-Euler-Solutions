@@ -5,7 +5,7 @@ int noOfDivisors(int);
 
 int main()
 {
-  int i, j = 0, flag = 0, nd = 0, incr = 50;
+  int i, j = 0, flag = 0, nd = 0;
 
   //  i = findStart(5000000);
 
@@ -20,6 +20,7 @@ int main()
     }
 
   printf("%d\n", j);
+  return 0;
 }
 
 int findStart(int sum)
@@ -37,7 +38,7 @@ int findStart(int sum)
 
 int noOfDivisors(int i)
 {
-  int j = sqrt((double)i), k, noOfDivisors = 2, l, flag = 0;
+  int j = sqrt((double)i), k, noOfDivisors = 2, l;
   //  printf("%d\n", j);
 
   for( k = 2; k <= j; k++ )

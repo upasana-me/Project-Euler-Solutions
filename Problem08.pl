@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # Find the greatest product of five consecutive digits in the 1000-digit number.
 
