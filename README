@@ -6,3 +6,18 @@ Instructions:
    a) Pre-requisites : Perl Interpreter
    b) For executing programs, type the following on the terminal :
       $ perl <filename>
+
+2. For executing files with .c extension
+   a) Pre-requisites : gcc
+   b) For compiling programs, type the following on the terminal:
+      $ gcc <filename>
+   c) For executing the program, type the following on the terminal:
+      $ ./a.out
+
+3. For executing files with .py extensions
+   a) Pre-requistes : Python interpreter
+   b) For executing programs, type the following on the terminal:
+      $ python <filename>
+
+For compiling Problem12.c, do this:
+    $ gcc -Wall Problem12.c -lm
