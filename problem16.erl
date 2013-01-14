@@ -1,5 +1,10 @@
+#!/usr/bin/env escript
+
 -module(problem16).
--export([twoPowerX/1]).
+-export([main/1]).
+
+main(_) -> Answer = twoPowerX(1000),
+	   io:format("~w\n", [Answer]).
 
 twoPowerX(X) -> twoPowerX(X, 1).
 
