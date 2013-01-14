@@ -19,5 +19,10 @@ Instructions:
    b) For executing programs, type the following on the terminal:
       $ python <filename>
 
+4. For executing files with .erl extensions
+   a) Pre-requistes : Erlang interpreter
+   b) For executing programs, type the following on the terminal:
+      $ escript <filename>
+
 For compiling Problem12.c, do this:
     $ gcc -Wall Problem12.c -lm
